@@ -5,7 +5,6 @@ body {
 }
 
 .App {
-  text-align: center;
   height: 6800px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,4 +12,10 @@ body {
 
 .App-link {
   color: #61dafb;
+}
+
+.text-highlight {
+  background: linear-gradient(330deg, #FFA8A3, #FF291C 73% 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
