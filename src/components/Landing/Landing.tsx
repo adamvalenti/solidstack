@@ -13,9 +13,9 @@ export default function Landing() {
         <div className='mission'>
             <span>WE ARE INTERESTED IN SOLVING YOUR PROBLEMS.  WE DESIGN, DEVELOP AND DEPLOY ELEGANT SOLUTIONS TO MEET THE EXACT NEEDS OF YOUR BUSINESS</span>
         </div>
-        <div className='button'>
-            <span>LET’S TALK ABOUT YOUR PROJECT</span>
-        </div>
+        <button className='button'>
+          LET’S TALK ABOUT YOUR PROJECT
+        </button>
     </div>
   )
 }

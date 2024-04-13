@@ -1,0 +1,33 @@
+.testemonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+	width: 382px;
+	height: 216px;
+	overflow: hidden;
+	background-color: #F7F3F3;
+}
+
+.quote {
+  padding: 1rem;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 1rem;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.position {
+  font-size: 24px;
+  font-weight: 300;
+}

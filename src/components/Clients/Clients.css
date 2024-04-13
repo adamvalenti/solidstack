@@ -1,0 +1,21 @@
+.clients {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 680px;
+}
+
+.testemonials {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1274px;
+}
+
+.logos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1360px;
+}

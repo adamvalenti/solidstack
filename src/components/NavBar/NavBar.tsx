@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../../assets/logo.svg'
 import './NavBar.css';
 
-export default function NavBar() {
+const NavBar: React.FC = () => {
   return (
     <div className='nav-bar'>
         <div className='branding'>
@@ -19,3 +19,5 @@ export default function NavBar() {
     </div>
   )
 }
+
+export default NavBar

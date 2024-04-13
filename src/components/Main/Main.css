@@ -1,0 +1,7 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-top: calc(0.75*var(--background-height) - 0.5*var(--section-height) - 950px);
+  gap: calc((var(--background-height) - 2*var(--section-height)) / 2);
+  height: calc((3*var(--background-height)) - 1000px);
+}

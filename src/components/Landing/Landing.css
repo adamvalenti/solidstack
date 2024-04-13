@@ -1,33 +1,26 @@
 .landing {
-    display: flex;
-    flex-direction: column;
-    height: 800px;
-    padding: 10rem 4rem;
-    gap: 4rem;
-    margin-bottom: 100px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 850px;
+  padding: 10rem 4rem;
+  gap: 4rem;
 }
 
 .tagline {
-    width: 1300px;
-    font-size: 100px;
-    font-weight: 600;
+  width: 1300px;
+  font-size: 100px;
+  font-weight: 600;
 }
 
 .mission {
-    width: 1000px;
-    font-size: 32px;
-    font-weight: 400;
+  width: 1000px;
+  font-size: 32px;
+  font-weight: 400;
 }
 
-.button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 550px;
-    height: 60px;
-    border-radius: 40px;
-    font-size: 32px;
-    font-weight: 500;
-    background: linear-gradient(330deg, #FFA8A3, #FF291C 73% 100%);
-    filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.25));
+.landing > .button {
+  width: 550px;
+  height: 60px;
+  border-radius: 40px;
 }
