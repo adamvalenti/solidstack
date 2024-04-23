@@ -14,6 +14,24 @@ input, textarea, select, button {
   resize: none;
 }
 
+@keyframes shiny {
+  from {
+    left: -160%;
+  }
+  to {
+    left: 160%;
+  }
+}
+
+@keyframes shinyText {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 100%;
+  }
+}
+
 .App {
   background-size: cover;
   background-repeat: no-repeat;
@@ -41,28 +59,21 @@ input, textarea, select, button {
   outline: none;
   cursor: pointer;
   overflow: hidden;
-  position: relative;
   background: linear-gradient(330deg, #FFA8A3, #FF291C 73% 100%);
   filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.25));
 }
 
-.button::before {
+.shiny::before {
   content: '';
   position: absolute;
   top: 0;
-  left: -100%;
+  left: -160%;
   height: 100%;
-  width: 100%;
+  width: 160%;
   background: linear-gradient(330deg, transparent, rgba(255, 248, 248, 0.5), transparent);
-  transition: left 0.5s ease-out;
   pointer-events: none;
 }
 
-.button:hover::before {
-  left: 100%;
-}
-
-.button:not(:hover)::before {
-  left: -100%;
-  transition: none;
+.shiny:hover::before {
+  animation: shiny 0.8s ease-out forwards;
 }

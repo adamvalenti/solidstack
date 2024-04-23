@@ -34,7 +34,7 @@ const About: React.FC<ContentComponentProps> = ({ isVisible }) => {
           &nbsp;
           <span>TO DELIVER HOW WE KNOW BEST</span>
         </div>
-        <button className={`button fadein-animation ${showButton ? 'is-visible' : ''}`}>
+        <button className={`button shiny fadein-animation ${showButton ? 'is-visible' : ''}`}>
           READY TO MAKE SOMETHING GREAT?
         </button> 
     </div>

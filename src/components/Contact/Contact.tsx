@@ -83,7 +83,7 @@ const Contact: React.FC<ContentComponentProps> = ({ isVisible }) => {
               onChange={e => setMessage(e.target.value)}
             />
           </div>
-          <button type='submit' className='button'>
+          <button type='submit' className='button shiny'>
             SEND
           </button>
         </form>
